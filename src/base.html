@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>HCMUS - {{STUDENT_NAME}}</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <section class="profile-header">
+            <div class="profile-info">
+                <h1 class="profile-name">{{STUDENT_NAME}} - {{STUDENT_ID}}</h1>
+                <h2 class="profile-department">{{DEPARTMENT}}</h2>
+                <p class="profile-email">Email: {{EMAIL}}</p>
+            </div>
+            <div class="profile-image-container">
+                <img src="assets/images/{{STUDENT_ID}}.png" alt="{{STUDENT_NAME}}" class="profile-image">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="personal-info">
+            <h2>Thông tin cá nhân</h2>
+            <ul>
+                <li>Họ và tên: {{STUDENT_NAME}}</li>
+                <li>MSSV: {{STUDENT_ID}}</li>
+                <li>Sinh viên khoa {{DEPARTMENT}}</li>
+                <li>Ngày sinh: {{BIRTH_DATE}}</li>
+                <li>Email: {{EMAIL}}</li>
+            </ul>
+        </section>
+        {{INTERESTS}}
+        <section class="description">
+            <h2>Mô tả</h2>
+            <p>{{DESCRIPTION}}</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024</p>
+        <p>Đồ án giữa kỳ</p>
+        <p>Kỹ thuật lập trình</p>
+        <p>23880259 - Lê Đàm Duy Phúc</p>
+    </footer>
+</div>
+</body>
+</html>
