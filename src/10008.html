@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <title>HCMUS - {{STUDENT_NAME}}</title>
+    <title>HCMUS - Lê Thị H</title>
 </head>
 <body>
 <div class="container">
     <header>
         <section class="profile-header">
             <div class="profile-info">
-                <h1 class="profile-name">{{STUDENT_NAME}} - {{STUDENT_ID}}</h1>
-                <h2 class="profile-department">{{DEPARTMENT}}</h2>
-                <p class="profile-email">Email: {{EMAIL}}</p>
+                <h1 class="profile-name">Lê Thị H - 10008</h1>
+                <h2 class="profile-department">Luật</h2>
+                <p class="profile-email">Email: lth@gmail.com</p>
             </div>
             <div class="profile-image-container">
-                <img src="{{STUDENT_IMAGE}}" alt="{{STUDENT_NAME}}" class="profile-image"
-                     onerror="this.onerror=null; this.src='https://picsum.photos/seed/{{STUDENT_NAME}}/300/200'">
+                <img src="../src/assets/images/10008.png" alt="Lê Thị H" class="profile-image"
+                     onerror="this.onerror=null; this.src='https://picsum.photos/seed/Lê Thị H/300/200'">
             </div>
         </section>
     </header>
@@ -25,17 +25,24 @@
         <section class="personal-info">
             <h2>Thông tin cá nhân</h2>
             <ul>
-                <li>Họ và tên: {{STUDENT_NAME}}</li>
-                <li>MSSV: {{STUDENT_ID}}</li>
-                <li>Sinh viên khoa {{DEPARTMENT}}</li>
-                <li>Ngày sinh: {{BIRTH_DATE}}</li>
-                <li>Email: {{EMAIL}}</li>
+                <li>Họ và tên: Lê Thị H</li>
+                <li>MSSV: 10008</li>
+                <li>Sinh viên khoa Luật</li>
+                <li>Ngày sinh: 1990-11-03</li>
+                <li>Email: lth@gmail.com</li>
             </ul>
         </section>
-        {{INTERESTS}}
+        <section class="interests">
+<h2>Sở thích</h2>
+<ul>
+<li>Đọc sách: Văn học cổ điển</li>
+<li>Thể thao: Cầu lông</li>
+</ul>
+</section>
+
         <section class="description">
             <h2>Mô tả</h2>
-            <p>{{DESCRIPTION}}</p>
+            <p>Cẩn trọng và nghiêm túc</p>
         </section>
     </main>
     <footer>

@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <title>HCMUS - {{STUDENT_NAME}}</title>
+    <title>HCMUS - Lê Văn C</title>
 </head>
 <body>
 <div class="container">
     <header>
         <section class="profile-header">
             <div class="profile-info">
-                <h1 class="profile-name">{{STUDENT_NAME}} - {{STUDENT_ID}}</h1>
-                <h2 class="profile-department">{{DEPARTMENT}}</h2>
-                <p class="profile-email">Email: {{EMAIL}}</p>
+                <h1 class="profile-name">Lê Văn C - 10003</h1>
+                <h2 class="profile-department">Quản trị kinh doanh</h2>
+                <p class="profile-email">Email: lvc@gmail.com</p>
             </div>
             <div class="profile-image-container">
-                <img src="{{STUDENT_IMAGE}}" alt="{{STUDENT_NAME}}" class="profile-image"
-                     onerror="this.onerror=null; this.src='https://picsum.photos/seed/{{STUDENT_NAME}}/300/200'">
+                <img src="../src/assets/images/10003.png" alt="Lê Văn C" class="profile-image"
+                     onerror="this.onerror=null; this.src='https://picsum.photos/seed/Lê Văn C/300/200'">
             </div>
         </section>
     </header>
@@ -25,17 +25,24 @@
         <section class="personal-info">
             <h2>Thông tin cá nhân</h2>
             <ul>
-                <li>Họ và tên: {{STUDENT_NAME}}</li>
-                <li>MSSV: {{STUDENT_ID}}</li>
-                <li>Sinh viên khoa {{DEPARTMENT}}</li>
-                <li>Ngày sinh: {{BIRTH_DATE}}</li>
-                <li>Email: {{EMAIL}}</li>
+                <li>Họ và tên: Lê Văn C</li>
+                <li>MSSV: 10003</li>
+                <li>Sinh viên khoa Quản trị kinh doanh</li>
+                <li>Ngày sinh: 1990-03-18</li>
+                <li>Email: lvc@gmail.com</li>
             </ul>
         </section>
-        {{INTERESTS}}
+        <section class="interests">
+<h2>Sở thích</h2>
+<ul>
+<li>Âm nhạc: Rock</li>
+<li>Điện ảnh: The Matrix</li>
+</ul>
+</section>
+
         <section class="description">
             <h2>Mô tả</h2>
-            <p>{{DESCRIPTION}}</p>
+            <p>Hài hước và nhiệt tình</p>
         </section>
     </main>
     <footer>

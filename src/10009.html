@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <title>HCMUS - {{STUDENT_NAME}}</title>
+    <title>HCMUS - Trần Văn I</title>
 </head>
 <body>
 <div class="container">
     <header>
         <section class="profile-header">
             <div class="profile-info">
-                <h1 class="profile-name">{{STUDENT_NAME}} - {{STUDENT_ID}}</h1>
-                <h2 class="profile-department">{{DEPARTMENT}}</h2>
-                <p class="profile-email">Email: {{EMAIL}}</p>
+                <h1 class="profile-name">Trần Văn I - 10009</h1>
+                <h2 class="profile-department">Ngôn ngữ Anh</h2>
+                <p class="profile-email">Email: tvi@gmail.com</p>
             </div>
             <div class="profile-image-container">
-                <img src="{{STUDENT_IMAGE}}" alt="{{STUDENT_NAME}}" class="profile-image"
-                     onerror="this.onerror=null; this.src='https://picsum.photos/seed/{{STUDENT_NAME}}/300/200'">
+                <img src="../src/assets/images/10009.png" alt="Trần Văn I" class="profile-image"
+                     onerror="this.onerror=null; this.src='https://picsum.photos/seed/Trần Văn I/300/200'">
             </div>
         </section>
     </header>
@@ -25,17 +25,24 @@
         <section class="personal-info">
             <h2>Thông tin cá nhân</h2>
             <ul>
-                <li>Họ và tên: {{STUDENT_NAME}}</li>
-                <li>MSSV: {{STUDENT_ID}}</li>
-                <li>Sinh viên khoa {{DEPARTMENT}}</li>
-                <li>Ngày sinh: {{BIRTH_DATE}}</li>
-                <li>Email: {{EMAIL}}</li>
+                <li>Họ và tên: Trần Văn I</li>
+                <li>MSSV: 10009</li>
+                <li>Sinh viên khoa Ngôn ngữ Anh</li>
+                <li>Ngày sinh: 1996-06-12</li>
+                <li>Email: tvi@gmail.com</li>
             </ul>
         </section>
-        {{INTERESTS}}
+        <section class="interests">
+<h2>Sở thích</h2>
+<ul>
+<li>Du lịch</li>
+<li>Điện ảnh: Marvel</li>
+</ul>
+</section>
+
         <section class="description">
             <h2>Mô tả</h2>
-            <p>{{DESCRIPTION}}</p>
+            <p>Thân thiện và sáng tạo</p>
         </section>
     </main>
     <footer>
